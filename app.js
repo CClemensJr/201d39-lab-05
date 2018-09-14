@@ -59,13 +59,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
     var multiplyNums       = multiply(multiply(a, b)[0], c)[0];
     var multiplyNumsString = 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + multiplyNums + '.'
 
-    console.log(addNums[0]);
-    console.log(multiplyNums[0]);
-
-
-
     return [addNums, multiplyNums, addNumsString, multiplyNumsString];
-
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
