@@ -152,7 +152,7 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
     }
 
     productString = 'The numbers '          + dynamicArray + 
-                    ' have a product of ' + product      + '.'
+                    ' have a product of '   + product      + '.'
 
     return [product, productString];
 }
